@@ -1,0 +1,9 @@
+/* ELEMENTS/CONTAINERS SAME THROUGHOUT THE PAGE */
+.back-button {
+    /* width: 100%; */
+    margin-bottom: 1rem;
+}
+
+label.form-label {
+    margin-top: 0.5rem;
+}

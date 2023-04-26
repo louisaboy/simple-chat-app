@@ -1,0 +1,118 @@
+.container {
+    width: 524px;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    vertical-align: middle;
+    padding: 60px;
+}
+
+.buttonContainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+
+Form {
+    width: 100%;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.title {
+    margin-bottom: 100px;
+}
+
+.signup-profile-pic__container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.signup-profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.bi-plus-circle-fill {
+    position: absolute;
+    bottom: 0;
+    right: 10px; 
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.bi-plus-circle-fill::before {
+    position: absolute;
+    bottom: 0;
+    /* right: 10px;  */
+    color: green;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+ 
+.form-container {
+    margin-bottom: 1rem;
+    width: 100%;
+    height:100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: left;
+    font-weight: bold; */
+    /* flex-direction: column; */
+    /* padding: auto, auto; */
+    margin: 0, auto;
+}
+
+.errorMessage {
+    margin-top: 10px;
+    color: red;
+}
+
+.loginBtn {
+    margin-bottom: 1rem;
+    background-color: #009879;
+    border-color:#009879;
+}
+
+.loginBtn:hover {
+    background-color: white;
+    color:#009879;
+    border-color:#009879;
+}
+
+.registerBtn {
+    margin-bottom: 1rem;
+    background-color: #ed8a00;
+    border-color:#ed8a00;
+}
+
+.registerBtn:hover {
+    background-color: white;
+    color:#ed8a00;
+    border-color:#ed8a00;
+}
